@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A clean, responsive website starter you can customize for free."
+    />
+    <meta name="theme-color" content="#f8f7f3" />
+    <title>Brightside — Make good things happen</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Brightside home">
+        <span class="brand-mark" aria-hidden="true">✳</span>
+        Brightside
+      </a>
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-nav"
+      >
+        <span class="sr-only">Toggle navigation</span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#services">What we do</a>
+        <a class="nav-cta" href="#contact">Say hello <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero page-width" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> A little studio for big ideas</p>
+          <h1>Make good<br />things <span>happen.</span></h1>
+          <p class="hero-description">
+            We help people turn their next bright idea into something real.
+            Thoughtful work, good people, and a little bit of magic.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#services">See what we do <span aria-hidden="true">↘</span></a>
+            <a class="text-link" href="#about">Get to know us</a>
+          </div>
+          <div class="hero-note">
+            <span class="note-stars" aria-hidden="true">✳ ✳ ✳</span>
+            <span>Independent by nature.<br />Optimistic by design.</span>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Abstract illustration of a sunny day" role="img">
+          <div class="sun"></div>
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="art-caption">A fresh start<br /><span>is closer than you think.</span></div>
+          <span class="art-spark spark-one" aria-hidden="true">✳</span>
+          <span class="art-spark spark-two" aria-hidden="true">✳</span>
+        </div>
+      </section>
+
+      <section class="intro page-width" id="about">
+        <p class="eyebrow">A good place to begin</p>
+        <div class="intro-content">
+          <h2>Big plans don't need<br />to start <span>big.</span></h2>
+          <div>
+            <p>
+              Every great thing starts somewhere. We're a small, curious team
+              that loves helping businesses and people find their footing,
+              find their voice, and find what's next.
+            </p>
+            <a class="text-link" href="#contact">A bit more about us <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="services page-width" id="services">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">How we can help</p>
+            <h2>Good ideas,<br /><span>meet good work.</span></h2>
+          </div>
+          <p>From the first scribble to the finished thing, we're here for the whole journey.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card card-peach">
+            <span class="card-number">01 / FIND YOUR FOCUS</span>
+            <span class="card-icon" aria-hidden="true">✳</span>
+            <h3>Strategy &amp;<br />storytelling</h3>
+            <p>Get clear on what makes you different and how to share it with the world.</p>
+            <a href="#contact" aria-label="Ask about strategy and storytelling">↗</a>
+          </article>
+          <article class="service-card card-yellow">
+            <span class="card-number">02 / MAKE IT REAL</span>
+            <span class="card-icon" aria-hidden="true">◒</span>
+            <h3>Design &amp;<br />digital</h3>
+            <p>Build an online home that's welcoming, memorable, and unmistakably you.</p>
+            <a href="#contact" aria-label="Ask about design and digital">↗</a>
+          </article>
+          <article class="service-card card-lilac">
+            <span class="card-number">03 / KEEP IT GROWING</span>
+            <span class="card-icon" aria-hidden="true">⌁</span>
+            <h3>Creative<br />partnership</h3>
+            <p>A friendly extra set of hands and minds, whenever the next idea hits.</p>
+            <a href="#contact" aria-label="Ask about creative partnership">↗</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact page-width" id="contact">
+        <div>
+          <p class="eyebrow">Your turn</p>
+          <h2>What's your<br /><span>bright idea?</span></h2>
+        </div>
+        <div class="contact-side">
+          <p>Tell us what you're dreaming up. The first conversation is always on us.</p>
+          <!-- Replace the email address with your own. -->
+          <a class="button button-light" href="mailto:hello@example.com">hello@example.com <span aria-hidden="true">↗</span></a>
+        </div>
+        <span class="contact-star" aria-hidden="true">✳</span>
+      </section>
+    </main>
+
+    <footer class="site-footer page-width">
+      <a class="brand" href="#home"><span class="brand-mark" aria-hidden="true">✳</span> Brightside</a>
+      <p>Made with optimism. © <span id="year"></span> Brightside Studio.</p>
+      <a class="back-top" href="#home">Back to top ↑</a>
+    </footer>
+  </body>
+</html>
