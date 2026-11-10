@@ -5,19 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="A clean, responsive website starter you can customize for free."
+      content="Brightside is an independent creative studio turning thoughtful ideas into meaningful work."
     />
-    <meta name="theme-color" content="#f8f7f3" />
-    <title>Brightside — Make good things happen</title>
+    <meta name="theme-color" content="#080909" />
+    <title>Brightside — Ideas into impact</title>
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="styles.css" />
     <script src="script.js" defer></script>
   </head>
   <body>
     <header class="site-header">
+      <a class="menu-label" href="#quick-links">☰ <span>MENU</span></a>
       <a class="brand" href="#home" aria-label="Brightside home">
         <span class="brand-mark" aria-hidden="true">✳</span>
-        Brightside
+        <span>BRIGHTSIDE</span>
       </a>
       <button
         class="menu-toggle"
@@ -30,106 +31,159 @@
         <span></span>
       </button>
       <nav class="site-nav" id="site-nav" aria-label="Main navigation">
-        <a href="#about">About</a>
-        <a href="#services">What we do</a>
-        <a class="nav-cta" href="#contact">Say hello <span aria-hidden="true">↗</span></a>
+        <a href="#work">OUR WORK</a>
+        <a href="#approach">APPROACH</a>
+        <a href="#services">WHAT WE DO</a>
+        <a class="nav-cta" href="#contact">LET'S TALK <span aria-hidden="true">↗</span></a>
       </nav>
+      <a class="header-contact" href="#contact">GET IN TOUCH <span aria-hidden="true">↗</span></a>
     </header>
 
     <main>
-      <section class="hero page-width" id="home">
-        <div class="hero-copy">
-          <p class="eyebrow"><span class="status-dot"></span> A little studio for big ideas</p>
-          <h1>Make good<br />things <span>happen.</span></h1>
+      <section class="hero" id="home">
+        <div class="hero-image" role="img" aria-label="A creative team working together in a bright studio"></div>
+        <div class="hero-content">
+          <p class="eyebrow"><span class="corner-tag">INDEPENDENT CREATIVE STUDIO</span></p>
+          <h1>Ideas into<br /> <span>impact.</span></h1>
           <p class="hero-description">
-            We help people turn their next bright idea into something real.
-            Thoughtful work, good people, and a little bit of magic.
+            We bring good people and bold ideas together to make work that moves things forward.
           </p>
-          <div class="hero-actions">
-            <a class="button button-dark" href="#services">See what we do <span aria-hidden="true">↘</span></a>
-            <a class="text-link" href="#about">Get to know us</a>
-          </div>
-          <div class="hero-note">
-            <span class="note-stars" aria-hidden="true">✳ ✳ ✳</span>
-            <span>Independent by nature.<br />Optimistic by design.</span>
-          </div>
+          <a class="button button-yellow" href="#work">EXPLORE OUR WORK <span aria-hidden="true">↘</span></a>
         </div>
-        <div class="hero-art" aria-label="Abstract illustration of a sunny day" role="img">
-          <div class="sun"></div>
-          <div class="orbit orbit-one"></div>
-          <div class="orbit orbit-two"></div>
-          <div class="art-caption">A fresh start<br /><span>is closer than you think.</span></div>
-          <span class="art-spark spark-one" aria-hidden="true">✳</span>
-          <span class="art-spark spark-two" aria-hidden="true">✳</span>
+        <div class="hero-bottom">
+          <span>STRATEGY &nbsp; / &nbsp; DESIGN &nbsp; / &nbsp; DIGITAL</span>
+          <a href="#work">SCROLL TO EXPLORE <span aria-hidden="true">↓</span></a>
         </div>
       </section>
 
-      <section class="intro page-width" id="about">
-        <p class="eyebrow">A good place to begin</p>
-        <div class="intro-content">
-          <h2>Big plans don't need<br />to start <span>big.</span></h2>
-          <div>
-            <p>
-              Every great thing starts somewhere. We're a small, curious team
-              that loves helping businesses and people find their footing,
-              find their voice, and find what's next.
-            </p>
-            <a class="text-link" href="#contact">A bit more about us <span aria-hidden="true">↗</span></a>
+      <section class="work-section section-wrap" id="work">
+        <div class="section-title">
+          <p class="eyebrow"><span class="corner-tag">THE WORK</span></p>
+          <h2>Good work makes<br /> <span>a difference.</span></h2>
+          <p class="section-intro">
+            We help people and teams turn their next big idea into something real, useful, and unforgettable.
+          </p>
+        </div>
+        <div class="work-grid">
+          <a class="work-card work-card-large" href="#contact">
+            <div class="work-photo photo-team" role="img" aria-label="Creative team collaborating around a table"></div>
+            <span class="work-index">01 / BRAND &amp; STRATEGY</span>
+            <span class="work-name">A clearer point<br />of view <span aria-hidden="true">↗</span></span>
+          </a>
+          <a class="work-card work-card-tall" href="#contact">
+            <div class="work-photo photo-design" role="img" aria-label="Designer sketching and planning a project"></div>
+            <span class="work-index">02 / DIGITAL EXPERIENCE</span>
+            <span class="work-name">Made to move<br />people <span aria-hidden="true">↗</span></span>
+          </a>
+          <a class="work-card work-card-wide" href="#contact">
+            <div class="work-photo photo-studio" role="img" aria-label="People sharing ideas in a creative studio"></div>
+            <span class="work-index">03 / CREATIVE PARTNERSHIP</span>
+            <span class="work-name">Better, together <span aria-hidden="true">↗</span></span>
+          </a>
+        </div>
+      </section>
+
+      <section class="approach-section" id="approach">
+        <div class="section-wrap approach-inner">
+          <div class="section-title centered">
+            <p class="eyebrow"><span class="corner-tag">OUR APPROACH</span></p>
+            <h2>Four things guide<br /> <span>everything we do.</span></h2>
+          </div>
+          <div class="principle-grid">
+            <article class="principle-card">
+              <span class="principle-number">01</span>
+              <h3>Start with people.</h3>
+              <p>Listen closely, stay curious, and build around the people your work is here to serve.</p>
+            </article>
+            <article class="principle-card">
+              <span class="principle-number">02</span>
+              <h3>Make it matter.</h3>
+              <p>Choose the useful, thoughtful idea over the loudest one. Good work earns attention.</p>
+            </article>
+            <article class="principle-card">
+              <span class="principle-number">03</span>
+              <h3>Keep it clear.</h3>
+              <p>Make complex things easier to understand, use, and remember.</p>
+            </article>
+            <article class="principle-card">
+              <span class="principle-number">04</span>
+              <h3>Make it together.</h3>
+              <p>Bring the right people into the process and leave room for better ideas to grow.</p>
+            </article>
           </div>
         </div>
       </section>
 
-      <section class="services page-width" id="services">
-        <div class="section-heading">
-          <div>
-            <p class="eyebrow">How we can help</p>
-            <h2>Good ideas,<br /><span>meet good work.</span></h2>
-          </div>
-          <p>From the first scribble to the finished thing, we're here for the whole journey.</p>
+      <section class="services-section section-wrap" id="services">
+        <div class="section-title centered">
+          <p class="eyebrow"><span class="corner-tag">WHAT WE DO</span></p>
+          <h2>One small studio.<br /><span>A lot of good ideas.</span></h2>
         </div>
         <div class="service-grid">
-          <article class="service-card card-peach">
-            <span class="card-number">01 / FIND YOUR FOCUS</span>
-            <span class="card-icon" aria-hidden="true">✳</span>
-            <h3>Strategy &amp;<br />storytelling</h3>
-            <p>Get clear on what makes you different and how to share it with the world.</p>
-            <a href="#contact" aria-label="Ask about strategy and storytelling">↗</a>
+          <article class="service-card">
+            <span class="service-symbol" aria-hidden="true">✳</span>
+            <h3>Strategy &amp; story</h3>
+            <p>Find your focus, understand your people, and tell a story that sounds like you.</p>
+            <a href="#contact" aria-label="Ask about strategy and story">LEARN MORE <span aria-hidden="true">↗</span></a>
           </article>
-          <article class="service-card card-yellow">
-            <span class="card-number">02 / MAKE IT REAL</span>
-            <span class="card-icon" aria-hidden="true">◒</span>
-            <h3>Design &amp;<br />digital</h3>
-            <p>Build an online home that's welcoming, memorable, and unmistakably you.</p>
-            <a href="#contact" aria-label="Ask about design and digital">↗</a>
+          <article class="service-card">
+            <span class="service-symbol" aria-hidden="true">◈</span>
+            <h3>Brand &amp; design</h3>
+            <p>Create a distinctive identity and a visual world people want to spend time in.</p>
+            <a href="#contact" aria-label="Ask about brand and design">LEARN MORE <span aria-hidden="true">↗</span></a>
           </article>
-          <article class="service-card card-lilac">
-            <span class="card-number">03 / KEEP IT GROWING</span>
-            <span class="card-icon" aria-hidden="true">⌁</span>
-            <h3>Creative<br />partnership</h3>
-            <p>A friendly extra set of hands and minds, whenever the next idea hits.</p>
-            <a href="#contact" aria-label="Ask about creative partnership">↗</a>
+          <article class="service-card">
+            <span class="service-symbol" aria-hidden="true">⌁</span>
+            <h3>Digital &amp; web</h3>
+            <p>Make a useful, welcoming online home that works beautifully on every screen.</p>
+            <a href="#contact" aria-label="Ask about digital and web">LEARN MORE <span aria-hidden="true">↗</span></a>
           </article>
         </div>
       </section>
 
-      <section class="contact page-width" id="contact">
+      <section class="collab-banner">
+        <div class="collab-image" role="img" aria-label="Studio team talking through a project"></div>
+        <div class="collab-copy">
+          <p class="eyebrow"><span class="corner-tag">GOOD PEOPLE, GOOD WORK</span></p>
+          <h2>Let's make<br /><span>something matter.</span></h2>
+          <a class="button button-yellow" href="#contact">START A CONVERSATION <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section class="contact-section section-wrap" id="contact">
         <div>
-          <p class="eyebrow">Your turn</p>
+          <p class="eyebrow"><span class="corner-tag">YOUR TURN</span></p>
           <h2>What's your<br /><span>bright idea?</span></h2>
         </div>
-        <div class="contact-side">
+        <div class="contact-copy">
           <p>Tell us what you're dreaming up. The first conversation is always on us.</p>
-          <!-- Replace the email address with your own. -->
-          <a class="button button-light" href="mailto:hello@example.com">hello@example.com <span aria-hidden="true">↗</span></a>
+          <a class="button button-outline" href="mailto:hello@example.com">HELLO@EXAMPLE.COM <span aria-hidden="true">↗</span></a>
         </div>
-        <span class="contact-star" aria-hidden="true">✳</span>
+      </section>
+
+      <section class="quick-links" id="quick-links">
+        <div class="section-wrap">
+          <p class="eyebrow"><span class="corner-tag">QUICK LINKS</span></p>
+          <div class="quick-link-grid">
+            <a href="#work"><span class="quick-icon" aria-hidden="true">✳</span><span>Our work</span></a>
+            <a href="#approach"><span class="quick-icon" aria-hidden="true">◎</span><span>Our approach</span></a>
+            <a href="#services"><span class="quick-icon" aria-hidden="true">◈</span><span>What we do</span></a>
+            <a href="#contact"><span class="quick-icon" aria-hidden="true">↗</span><span>Contact us</span></a>
+          </div>
+        </div>
       </section>
     </main>
 
-    <footer class="site-footer page-width">
-      <a class="brand" href="#home"><span class="brand-mark" aria-hidden="true">✳</span> Brightside</a>
-      <p>Made with optimism. © <span id="year"></span> Brightside Studio.</p>
-      <a class="back-top" href="#home">Back to top ↑</a>
+    <footer class="site-footer">
+      <div class="section-wrap footer-inner">
+        <a class="brand" href="#home"><span class="brand-mark" aria-hidden="true">✳</span><span>BRIGHTSIDE</span></a>
+        <div class="footer-links">
+          <a href="#work">Our work</a>
+          <a href="#services">What we do</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <p>Independent by nature. © <span id="year"></span> Brightside Studio.</p>
+      </div>
     </footer>
   </body>
 </html>
